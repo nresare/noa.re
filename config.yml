@@ -11,7 +11,7 @@ params:
 
   socialIcons:
     - name: mastodon
-      url: "https://unstraight.club/@noa/"
+      url: "https://unstraight.club/@noa"
     - name: github
       url: "https://github.com/nresare"
     
