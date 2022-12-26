@@ -1,0 +1,17 @@
+baseURL: http://noa.re/
+languageCode: en-uk
+title: Noa's website
+theme: PaperMod
+params:
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      I haven't had a website in a long time, but joining [Mastodon](https://joinmastodon.org) in late 2022
+      I felt it might be time again. Self publishing is pretty neat.
+
+  socialIcons:
+    - name: mastodon
+      url: "https://unstraight.club/@noa/"
+    - name: github
+      url: "https://github.com/nresare"
+    
