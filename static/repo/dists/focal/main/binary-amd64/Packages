@@ -1,0 +1,24 @@
+Package: pam-ssh-agent
+Priority: optional
+Section: libs
+Installed-Size: 1138
+Maintainer: Noa <noa@resare.com>
+Architecture: amd64
+Version: 0.5.0
+Depends: libc6 (>= 2.28), libgcc-s1 (>= 4.2), libpam0g (>= 0.99.7.1)
+Filename: pool/focal/main/p/pam-ssh-agent/pam-ssh-agent_0.5.0_amd64.deb
+Size: 368996
+MD5sum: 943af569909c8f2d90729d4dd060d7f8
+SHA1: dcfb7604afb0e0f50553621134ffbd74fdb6d728
+SHA256: 725ae8e4fe8aee03e757e227c92e1dc723ba2dc17fd34c4fd84ca7069b11d52e
+SHA512: 38c88e2d1b077c2d8e074777803c1ea81064bb859f0673b291ea13debc7f0c4556945d3a73d8e664a7630be1b0748492ee470d205b217ce41ce74e34c9b23a7d
+Description: PAM Module for authenticating with ssh-agent
+ Shared library that gets installed where libpam looks for
+ modules. When referenced in a pam configuration, the module
+ implements authentication success or failure based on whether
+ the ssh-agent referenced by the SSH_AUTH_SOCK environment
+ variable can correctly sign a random challenge with the private
+ key corresponding to any of the public keys referenced in
+ the module configuration args.
+Homepage: https://github.com/nresare/pam-ssh-agent
+

@@ -1,0 +1,7 @@
+Origin: . focal
+Label: . focal
+Archive: focal
+Suite: focal
+Codename: focal
+Architecture: amd64
+Component: main
