@@ -1,7 +1,7 @@
 ---
 title: "Configuring Hyperoptic IPv6 with your own router"
 author: "Noa Resare"
-date: "20023-04-30"
+date: "2023-04-30"
 ---
 
 This page contains some details on how I configured IPv6 on my own internet gateway instead
