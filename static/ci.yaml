@@ -1,0 +1,11 @@
+# this is a cloud-init file that creates the user noa, useful
+# to make newly spun up cloud machines a bit more useful
+users:
+  - name: noa
+    uid: 4011
+    groups: users, admin
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMOmfeR5oaRJvme4/uFNitESVwdHwACESMqdTSxxIP+UytIBlUU+37/7qyCKkkRWFlvsRyjSQbfnLRE+UZTlH8Y= noa@resare.com
+
